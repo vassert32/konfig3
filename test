@@ -1,0 +1,3 @@
+A := 10;
+B := 'Test String';
+C := $(A);

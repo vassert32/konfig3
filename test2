@@ -1,0 +1,3 @@
+ARRAY1 := <<1, <<2, 3>>, 4>>;
+CONST := 'constant';
+ARRAY2 := <<$(CONST), $(ARRAY1)>>;

@@ -1,0 +1,5 @@
+/* Database Connection Settings */
+DB_HOST := 'db.example.com';
+DB_PORT := 5432;
+CREDENTIALS := <<'username', 'password'>>;
+CONNECTION := <<$(DB_HOST), $(DB_PORT), $(CREDENTIALS)>>;
